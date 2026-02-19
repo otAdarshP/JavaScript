@@ -20,11 +20,21 @@
 
 // OBJECTS (Brief introduction):
 
-console.log(typeof null) // returns OBJECT
-let name = "adarsh"
-console.log(typeof "adarsh");//  returns STRING
-let age = 12
-console.log(typeof age) // returns NUMBER
-console.log(typeof undefined) // returns UNDEFIEND
+// console.log(typeof null) // returns OBJECT
+// let name = "adarsh"
+// console.log(typeof "adarsh");//  returns STRING
+// let age = 12
+// console.log(typeof age) // returns NUMBER
+// console.log(typeof undefined) // returns UNDEFIEND
 
+let score = "33"
+console.log(typeof (score))
 
+let numInInt = Number(score);
+console.log(typeof (numInInt));
+
+let isLoggedIn = 1
+
+let valueType = Boolean (isLoggedIn)
+console.log(typeof (valueType))
+console.table(valueType)
